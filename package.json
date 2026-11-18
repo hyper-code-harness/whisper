@@ -1,1 +1,16 @@
-{"name":"whisper","private":true,"type":"module","procs":{"src":"src","label":"Whisper","icon":"ph-microphone","optional":true,"description":"Transcribe audio locally with whisper.cpp on Apple Silicon and manage speech-recognition models."}}
+{
+  "name": "whisper",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyper-code-harness/whisper"
+  },
+  "procs": {
+    "src": "src",
+    "label": "Whisper",
+    "icon": "ph-microphone",
+    "optional": true,
+    "description": "Transcribe audio locally with whisper.cpp on Apple Silicon and manage speech-recognition models."
+  }
+}
